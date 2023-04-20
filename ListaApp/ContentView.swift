@@ -18,11 +18,8 @@ struct ContentView: View {
                         tarea in TareaIndividual(task: tarea)
                     }
                 }.navigationTitle("Tareas")
-                
-                
             }
-                NewTaskView(listaTareas: listaTareas
-                )
+                NewTaskView(listaTareas: listaTareas)
         }
     }
 }
